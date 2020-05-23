@@ -1,0 +1,1 @@
+This repo is used to test a basic Jenkins pipeline implementation
