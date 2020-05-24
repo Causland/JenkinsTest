@@ -6,7 +6,7 @@
 using namespace std;
 
 int main(){
-    Rectangle rec(5,2);
+    Rectangle rec(10,2);
     Triangle tri(6);
 
     cout<<rec.toString()<<endl;
