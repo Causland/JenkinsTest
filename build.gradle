@@ -1,7 +1,0 @@
-plugins {
-    id 'cpp-application'
-}
-
-application {
-    targetMachines = [machines.linux.x86_64]
-}
