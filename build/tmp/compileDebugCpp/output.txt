@@ -1,0 +1,4 @@
+See file:///home/chris/Desktop/C++Stuff/Shapes/build/tmp/compileDebugCpp/output.txt for all output for compileDebugCpp.
+compiling ShapesRunner.cpp successful.
+
+Finished compileDebugCpp, see full log file:///home/chris/Desktop/C++Stuff/Shapes/build/tmp/compileDebugCpp/output.txt.
