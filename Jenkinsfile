@@ -4,8 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                cmakeBuild
-                    installation: 'Default'
+                cmake
             }
         }
         stage('Test') {
