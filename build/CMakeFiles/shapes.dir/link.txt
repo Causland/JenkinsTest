@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/shapes.dir/src/Rectangle.cpp.o CMakeFiles/shapes.dir/src/Shape.cpp.o CMakeFiles/shapes.dir/src/Triangle.cpp.o CMakeFiles/shapes.dir/src/ShapesRunner.cpp.o  -o ../bin/shapes 

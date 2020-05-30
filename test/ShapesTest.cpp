@@ -1,4 +1,4 @@
-#include "test/gtest.h"
+#include "gtest/gtest.h"
 #include "Rectangle.h"
 
 TEST (NameTest, Rectangle){

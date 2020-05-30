@@ -4,17 +4,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building.............'
+                cmakeBuild
+                    installation: 'Default'
             }
         }
         stage('Test') {
             steps {
                 echo 'Testing..'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
             }
         }
     }
