@@ -9,6 +9,9 @@ pipeline {
         }
         stage('Test') {
             steps {
+                dir("build") {
+                    sh 'make'
+                }
                 dir("bin") {
                     sh label: '', script: 'for i in *test*; do ./$i; done'
                 }
