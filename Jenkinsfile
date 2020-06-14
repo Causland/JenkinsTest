@@ -13,7 +13,7 @@ pipeline {
         stage('Test') {
             steps {
                 dir("bin") {
-                    sh label: '', script: 'for i in *test*; do ./$i --gtest_output="../test/report.xml"; done'
+                    sh label: '', script: 'for i in *test*; do ./$i --gtest_output="xml:../test/report.xml"; done'
                 }
                 junit 'test/report.xml'
             }
