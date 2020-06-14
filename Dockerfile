@@ -2,6 +2,8 @@ FROM ubuntu:20.04
 
 MAINTAINER Ervin Varga 
 
+ARG DEBIAN_FRONTEND=noninteractive
+
 ENV MY_INSTALL_DIR $HOME/.local
 
 RUN mkdir -p $MY_INSTALL_DIR
