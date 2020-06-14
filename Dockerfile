@@ -2,11 +2,11 @@ FROM ubuntu:20.04
 
 MAINTAINER Ervin Varga 
 
-RUN export MY_INSTALL_DIR=$HOME/.local
+ENV MY_INSTALL_DIR $HOME/.local
 
 RUN mkdir -p $MY_INSTALL_DIR
 
-RUN export PATH="$PATH:$MY_INSTALL_DIR/bin"
+ENV PATH "$PATH:$MY_INSTALL_DIR/bin"
 
 RUN apt-get update
 
