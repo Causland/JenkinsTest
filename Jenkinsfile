@@ -10,7 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 dir("bin") {
-                    sh "for i in *test*; do ./$i; done"
+                    sh label: '', script: 'for i in *test*; do ./$i; done'
                 }
             }
         }
