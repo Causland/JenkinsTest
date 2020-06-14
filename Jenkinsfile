@@ -4,12 +4,14 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                cmake test
+                cmakeBuild buildDir: 'build', buildType: 'Release', generator: 'Unix Makefiles', installation: 'Default', steps: [[]]
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                dir("bin") {
+                    sh "for i in *test*; do ./$i; done"
+                }
             }
         }
     }
