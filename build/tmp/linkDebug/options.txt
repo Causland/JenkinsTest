@@ -1,7 +1,0 @@
--o
-/home/chris/Desktop/C++Stuff/Shapes/build/exe/main/debug/Shapes
-/home/chris/Desktop/C++Stuff/Shapes/build/obj/main/debug/7lpu7b0ajcexac4w1gtpjou6m/Shape.o
-/home/chris/Desktop/C++Stuff/Shapes/build/obj/main/debug/73kp0kls2kenaunitrzgpkaea/Rectangle.o
-/home/chris/Desktop/C++Stuff/Shapes/build/obj/main/debug/7jjqtlsvfaqyw2nhne0zjfof3/Triangle.o
-/home/chris/Desktop/C++Stuff/Shapes/build/obj/main/debug/c30zjggs6zw6x6ayht13zjfpv/ShapesRunner.o
--m64

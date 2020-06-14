@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/shapestest.dir/src/Rectangle.cpp.o CMakeFiles/shapestest.dir/src/Shape.cpp.o CMakeFiles/shapestest.dir/src/Triangle.cpp.o CMakeFiles/shapestest.dir/test/ShapesTest.cpp.o  -o ../bin/shapestest  lib/googletest/libgtest_main.a lib/googletest/libgtest.a -pthread 
