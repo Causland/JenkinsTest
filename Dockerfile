@@ -12,7 +12,7 @@ RUN sed -i 's|session required pam_loginuid.so|session optional pam_loginuid.so|
 
 RUN mkdir -p /var/run/sshd
 
-RUN apt-get install -y openjdk--jdk
+RUN apt-get install -y default-jdk
 
 RUN adduser --quiet jenkins
 
