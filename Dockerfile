@@ -24,7 +24,7 @@ RUN cd grpc
 
 RUN mkdir -p cmake/build
 
-RUN pushd cmake/build
+RUN cd cmake/build
 
 RUN cmake -DgRPC_INSTALL=ON -DgRPC_BUILD_TESTS=OFF -DCMAKE_INSTALL_PREFIX=$MY_INSTALL_DIR ../..
 
@@ -32,5 +32,5 @@ RUN make -j
 
 RUN make install
 
-RUN popd
+RUN cd ../../
 
