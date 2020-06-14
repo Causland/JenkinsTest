@@ -5,13 +5,13 @@ pipeline {
         stage('Build') {
             steps {
                 cmakeBuild buildDir: 'build', buildType: 'Release', generator: 'Unix Makefiles', installation: 'Default'
+                dir("build") {
+                    sh 'make'
+                }
             }
         }
         stage('Test') {
             steps {
-                dir("build") {
-                    sh 'make'
-                }
                 dir("bin") {
                     sh label: '', script: 'for i in *test*; do ./$i; done'
                 }
