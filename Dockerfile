@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:20.04
 
 MAINTAINER Ervin Varga 
 
